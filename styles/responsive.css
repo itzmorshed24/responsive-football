@@ -1,0 +1,104 @@
+
+/* Responsive Design */
+
+@media screen and (max-width: 576px) {
+    header{
+        background: #2D25A0;
+        width: 760px;
+        height: auto; 
+     }
+     .nav-section{
+        display: inline;
+        justify-content: center
+     }
+    .container{
+        width: 50px;
+        margin: 0 auto;
+    }
+    .right-content{
+        padding: 30x;
+        margin-bottom: 60px;
+    }
+    .right-content h1{
+        font-size: 2.5rem;
+        font-weight: 500;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    .header-content{
+        flex-direction: column;
+    }
+    /* end header area */
+    .top-player-area{
+        width: 760px;
+        }
+    .top-player{
+        grid-template-columns: 430px;
+        justify-content: center;
+        padding: 80px 0;
+        row-gap: 40px;
+    }
+
+    /* Start Highlights Area */
+    .highlights{
+        margin-top: 80px;
+        grid-template-columns: 430px;
+        align-items: center;
+        justify-content: center;
+    }
+    .highlights-area h2{
+        font-size: 2.25rem;
+    }
+
+    .footer-area{
+        width: 300px;
+        margin-top: 120px;
+    }
+}
+
+
+/* Medium Device Responsive */
+@media screen and (min-width:577px) and (max-width:992px) {
+    header{
+        background: #2D25A0;
+        width: 1160px;
+        height: auto; 
+     }
+     .nav-section{
+        justify-content: space-evenly;
+     }
+     nav{
+        margin-bottom: 20px;
+     }
+     .right-content{
+        padding: 30x;
+        margin-bottom: 60px;
+    }
+    .header-content{
+        flex-direction: column;
+    }
+/* End of Header Section */
+    .top-player-area{
+    /* background-color: rgb(243, 239, 239); */
+    width: 1160px;
+    }
+    .top-player{
+    grid-template-columns: repeat(2,1fr);
+    padding: 20px;
+    padding: 80px 20px;
+    }
+    .top-player-list h3{
+        font-size: 2rem;
+    }
+    .top-player-list p{
+        margin: 15px 0;
+        font-size: 1.2rem;
+    }
+        /* Start Highlights Area */
+    .highlights{
+        padding: 50px;       
+    }
+    .highlights-area h2{
+        font-size: 2.25rem;
+    }
+}
